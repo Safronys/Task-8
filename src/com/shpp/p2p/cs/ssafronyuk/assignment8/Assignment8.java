@@ -22,7 +22,6 @@ public class Assignment8 extends WindowProgram {
         GSquare obj = (GSquare) getElementAt(e.getX(), e.getY());
         if (obj == null) return;
         obj.setResize(!obj.isResize());
-
     }
 
     public void mouseMoved(MouseEvent e) {
